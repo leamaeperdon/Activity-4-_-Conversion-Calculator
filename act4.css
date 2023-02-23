@@ -1,0 +1,36 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+.converter-body {
+    width: 450px;
+    height: 270px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid black;
+    background-image: url(images/bg3.jpg);
+}
+.converter-title {
+    text-align: center;
+    margin: 40px 0px;
+    font-family: monospace 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input {
+    height: 40px;
+    text-align: center;
+    
+}
+#input {
+    margin-left: 10px;
+}
+#inputType, #resultType {
+    width: 160px;
+    height: 25px;
+    margin-left: 25px;
+    color: rgb(1, 71, 1);
+}
+#resultType {
+    margin-left: 10px;
+}
